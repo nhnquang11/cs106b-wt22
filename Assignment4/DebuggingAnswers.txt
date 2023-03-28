@@ -1,0 +1,28 @@
+Put your answers to the debugging questions from Problem One in this file.
+
+Q1:
+finish = 'C'
+numDisks = 5
+start = 'A'
+temp = 'B'
+
+Q2:
+Function: makeTheMagicHappen()
+File: TowersOfHanoiGUI.cpp
+
+Q3:
+31 moves
+
+Q4:
+totalMoves = 15
+
+Q5:
+Inputs that have two characters.
+
+Q6:
+Character "=".
+
+Q7:
+The extra character "=" in the line "Set<string> thisOption = permutationsRec(remaining, chosen += ch);"
+changes the variable chosen passed into the function permutationsRec in the next loop. This causes a bug 
+when there is more than one loop, which is equivalent to the inputs having at least two characters.

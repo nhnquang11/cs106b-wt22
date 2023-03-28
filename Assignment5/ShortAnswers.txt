@@ -1,0 +1,11 @@
+Q1:
+If criteria like minimizing wrongful denials were not included in the contract, engineers should have
+included them in their optimization algorithm under one condition. Engineers should have reconsidered
+the contract with the customer to clear things out.
+
+Q2:
+accessibility, ease of use, intuitive, efficiency, support policy
+
+Some metrics to assess the model: fraudulent percentage, customer satisfaction
+(through rating and review system), the efficiency of the algorithm (e.g. latency),
+and eligibility acceptance rate through the years.

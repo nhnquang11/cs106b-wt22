@@ -1,0 +1,29 @@
+The big-O time complexity of the function...
+
+... iterativePrinting is O(N^2),
+    and I know this because the inner loop and the outer loop are O(N).
+    The conditional statement does reduce the running time but doesn't affect the time complexity.
+
+... iterativePQ is O(N^2log(N)),
+    and I know this because:
+    - Enqueue phase: O(N^2) elements enqueued. Each enqueue takes O(log(M)) - M is the current number
+    of element in the queue. -> log(1) + log(2) + ... + log(N^2) < Nlog(N^2) = 2N^2log(N)
+    -> O(N^2log(N))
+    - Dequeue phase: Each dequeue takes O(log(M)) - M is the current number of element in the queue.
+    -> Similar to enqueue: O(N^2log(N))
+
+    Combine two phases together, we have the time complexity of the algorithm is O(N^2log(N))
+
+... iterativeHashSet is O(N),
+    and I know this because all add, contains and remove functions are O(1). The function has two single
+    loop from 0 to n-1 so the time complexity of each loop is O(N). The overall complexity is O(N).
+
+... iterativeLooping is O(log(N)),
+    and I know this because each loop i halves the value. There are total log(N) loops before i reachs 1.
+    The time complexity is O(log(N)).
+
+... iterativeVector is O(N^2(log(N))),
+    and I know this because the for loop takes O(N) and each while loop has O(NlogN) of the function sort as
+    the dominant time complexity. There are total n loops of the while loop so:
+    1log(1) + 2log(2) + ... + nlog(n) < nlog(n) + nlog(n) + ... + nlog(n) = n^2log(n)
+    The time complexity of the algorithm is N^2(log(N))

@@ -1,0 +1,15 @@
+Q1:
+It's better to assign matches using a perfect matching to a group study.
+It's reasonable to help everyone struggling in studying so that no one is left behind.
+
+Q2:
+It's better to assign matches using a maximum-weight matching to choose out a double tennis team competing.
+The efficiency and performance of the team depend on the harmony and coordination between the two players.
+
+Q3:
+It's better to find a matching with a higher total weight in business partner matching where economic
+growth rate is the ultimate goal for the nation.
+
+Q4:
+The top wealthy corporations develop the top poorest areas of a nation.
+That can lessen disparity and improve sustainable development, which has a long-term purpose.

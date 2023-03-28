@@ -1,0 +1,91 @@
+Q1:
+macOS
+
+Q2:
+elems[3]:
+    name   ""
+    weight 0.0
+
+elems[4]:
+    name   ""
+    weight 4.0474074424e-314
+
+elems[5]:
+    name   ""
+    weight 0.0
+
+Q3:
+1.
+          Computer Science
+                 1
+            /        \
+           AI      Data Science
+           3           2
+        /     \
+ Mathematics  Physics
+      4          5
+
+2.
+              Sleeping
+                 1
+             /        \
+      Reading books  Surfing the
+                      Internet
+            2            3
+         /     \
+Watching movie Listening to music
+     4                  5
+
+3.
+              Swimming
+                 10
+             /        \
+          Running    Football
+            30         15
+         /     \
+    Basketball Billiards
+       100      50
+
+Q4:
+               T1
+            /      \
+          B3       G2
+        /    \    /   \
+       S6    A5  V9   R4
+     /    \
+    O8    K7
+
+Q5:
+               G2
+            /      \
+          B3       R4
+        /    \    /   \
+       S6    A5  V9   K7
+     /
+    O8
+
+Q6:
+unused, G2, B3, R4, S6, A5, V9, K7, O8
+   0    1   2   3   4   5   6   7   8
+
+Q7:
+Yes.
+
+2020:
+    Minnesota:  8  seats, population 5,709,752
+    New York:   26 seats, population 20,215,751
+
+If there are 89 more people in New York:
+    Minnesota:  8  seats, population 5,709,752
+    New York:   27 seats, population 20,215,840
+
+Q8:
+Yes.
+
+2020:
+    Minnesota:  8  seats, population 5,709,752
+    New York:   26 seats, population 20,215,751
+
+If there are 26 fewer people in Minnesota:
+    Minnesota:  7  seats, population 5,709,726
+    New York:   27 seats, population 20,215,840

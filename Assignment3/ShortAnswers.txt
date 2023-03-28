@@ -1,0 +1,19 @@
+Q1:
+Two additional pieces of information: complexity and time weight.
+- Complexity: The difficulty of the task. For example, more difficult tasks require more pay and vice versa.
+- Time weight: The score given to the shift duration. For example, long continuous working hours or some specific
+  time that fewer people are willing to work (e.g. late closing or early opening) require more pay than usual.
+We can collect this data by taking surveys from current workers at the company.
+
+Q2:
+The relevant line of code:
+    if (lengthOf(cand) <= remainingHours && !hasOverlap(cand, scheduleSoFar))
+We can add more constrains to this conditional statement like:
+- Max number of workdays per week having complexity or time weight greater than a threshold.
+- No two consecutive workdays having complexity or time weight greater than a threshold.
+
+Q3:
+1. Schedule 2
+2. Schedule 1 and Schedule 3
+I pick this order because Schedule 2 balances both the company and the workers' benefits.
+Schedule 1 or Schedule 3 either lower company performance or exploit labor.

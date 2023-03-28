@@ -1,0 +1,39 @@
+Q1:
+Robin Hood Hashing is faster most of the time (except when a = 0.96 and 0.97). The size gap tends to
+stay thesame as the load factor increases. The similarities may benefit from the good hash function
+which leads to fewer collisions.
+
+Q2:
+Robin Hood is faster. It's a disaster for linear probing in this test. The size of the gap grows 
+quickly as the load factor increases. As the table is nearly full, the high chance is that the
+linear probing has to check all the elements, whereas the Robin Hood can reduce the lookup time
+using the distancing mechanism.
+
+Q3:
+Robin Hood is faster for a <= 0.93 and linear probing is faster for a = 0.96 and 0.97. For large
+load factors, the Robin Hood most likely has to shift a large number of elements forward when
+collisions occur.
+
+Q4:
+Robin Hood is faster. The size of the gap grow slowly. Robin hood can detect elements already in the
+table earlier than linear probing due to its distancing mechanism.
+
+Q5:
+For load factor <= 0.8, linear probing is faster. For load factor > 0.8, the Robin Hood is faster.
+The Robin Hood has to implement backward shifting when collisions occur, whereas linear probing has
+a longer time to detect the element in the table as the load factor increases.
+
+Q6:
+Robin Hood is faster and steady throughout all the factors compared to linear probing. There is a huge
+gap between Robin Hood and linear probing in this test. Linear probing performs awfully as the load
+factor increases. Robin Hood, due to its distancing mechanism, can detect the element not in the table
+pretty soon, whereas linear probing most likely has to trace through all the elements in the table.
+
+Q7:
+Wasting space.
+
+Q8:
+There is no best choice. It's a tradeoff.
+Saving space with high load factor -> Chained Hashing.
+Abundant space with low load factor -> Robin Hood Hashing.
+Avoid linear probing due to its unstable performance.

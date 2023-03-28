@@ -1,0 +1,30 @@
+Q1:
+Intelligence gathering: Language misidentification might result in wrongly
+identifying the enemy, which can unnecessarily increase tensions between the
+two nations. Worse still, a war can break out and innocent lives will be taken.
+
+Q2: To improve our algorithm performance, we have to improve the data input.
+Plan 1: Hires linguistic specialists to provide credible texts of different languages.
+Plan 2: Calls for community to provide and label data and has a team of supervisors to validate the quality.
+
+Q3: Advantage of:
+Plan 1: High-quality assurance.
+Plan 2: Low cost compares to plan 1 and abundant amount of data.
+
+Q4:
+Plan 2.
+The abundant amount of data from the contributors is a huge benefit for the algorithm.
+The policy, however, has to have a mechanism to assure the quality source. For example,
+the contributors can enter their GPS as a mechanism to validate that they are indigenous
+people or at least they are living in the location where the language comes from, or the
+contributors can cross-check each other sources.
+
+Q5:
+Strength: High accuracy for text scripts that has a huge amount of data as input to build the algorithm.
+Weakness: Low accuracy for short texts, texts that have been transliterated, scripts that have small data
+          or no data at all as input to build the algorithm, etc.
+When releasing the tool, we can,  for scripts that the algorithm is not certain or has little or no
+knowledge about,  handle the problem in some ways:
+- Output the top possible language for small texts for the users to self-evaluation.
+- For scripts that the algorithm has little or no knowledge about (the cosine similarity is under a threshold,
+  for example), the programmer has the responsibility to announce this problem to the user.

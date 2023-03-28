@@ -1,0 +1,14 @@
+Q1:
+The big-O time complexity of the function fastMaxWeightMatching is O(N^3)
+n = 100:      256.587ms
+n = 200:      1926.07ms     (approximately 8 = 2^3 times the running time of n = 100)
+n = 400:      14947ms       (approximately 64 = 4^3 times the running time of n = 100)
+
+Q2:
+It takes approximately 256.587 * (50 ^ 3) = 32073375ms to find a maximum-weight matching in
+a group of 5000 people.
+
+Q3:
+24hrs = 24 * 60 * 60 * 1000 = 86400000ms = 336727.8935 times the running time of n = 100
+336727.8935 = 69 ^ 3
+n = 69 * 100 = 6900 people
